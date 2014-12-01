@@ -2,12 +2,12 @@
 Contributors: itmarketing
 Tags: ItStream,video,embed,player,live,viewer
 Requires at least: 3.5.1
-Tested up to: 3.9.1
+Tested up to: 4.0.1
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin allow embedding of tStream content on your wordpress website
+This plugin allow embedding of tStream content on your WordPress website
 
 == Description ==
 
@@ -28,7 +28,10 @@ This plugin requires a valid itStream account.
 
 == Installation ==
 
-For more detailed instructions, take a look at the Installation Guide
+1. Navigate to the 'Add New' in the plugins dashboard
+2. Search for 'itStream'
+3. Click 'Install Now'
+4. Activate the plugin on the Plugin dashboard
 
 == Frequently Asked Questions ==
 
