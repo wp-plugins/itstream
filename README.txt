@@ -43,7 +43,8 @@ To create an ItStream account go to ItStream [registration page](https://www.its
 
 1. ItStream Add Media integration
 2. ItStream "Embed Player" editor button
-3. ItStream "Embed Player" view
+3. ItStream "Embed Player" view (Live)
+3. ItStream "Embed Player" view (TV Schedule)
 
 = Using The WordPress Dashboard =
 
