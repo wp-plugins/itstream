@@ -69,7 +69,7 @@
                 id: 'its_attach_to_post_dialog',
                 width: popupWidth,
                 height: popupHeight,
-                title: 'ItStream - Embed Live',
+                title: 'ItStream - Embed Player',
                 inline: 1
                 /*buttons: [{
                     text: 'Close',
