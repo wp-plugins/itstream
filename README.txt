@@ -1,6 +1,6 @@
 === ItStream ===
 Contributors: itmarketing
-Tags: ItStream,video,embed,player,live,viewer
+Tags: ItStream,video,embed,player,live,viewer,video on demand,live streaming,streaming,palinsesto,tv schedule,playlist,Web Tv,Web Radio,Tv,Radio
 Requires at least: 3.5.1
 Tested up to: 4.0.1
 Stable tag: 1.0.0
