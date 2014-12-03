@@ -3,7 +3,7 @@ Contributors: itmarketing
 Tags: ItStream,video,embed,player,live,viewer,video on demand,live streaming,streaming,palinsesto,tv schedule,playlist,Web Tv,Web Radio,Tv,Radio
 Requires at least: 3.5.1
 Tested up to: 4.0.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -63,6 +63,9 @@ To create an ItStream account go to ItStream [registration page](https://www.its
 After activating the plugin go in Settings > itStream and insert yout itSteam account data to connect
 
 == Changelog ==
+
+= 1.0.1 =
+* Resolved pagination bug in ItStream 'Add Media' view
 
 = 1.0.0 =
 * Added itStream tab in Add Media

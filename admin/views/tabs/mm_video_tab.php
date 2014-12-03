@@ -192,21 +192,20 @@ if ( isset($_POST['send']) ) {
 </form>
 
 <?php
-$paged = ($results['current_page']) ? absint($results['current_page']) : 1;
-if($paged > 1 ) {
+$paged = ( empty( $results['current_page'] ) ) ? 1 : absint( $results['current_page'] );
+if( $results['pages'] > 1 ) {
     $max   = intval( $results['pages'] );
 
-    if ( $paged >= 1 ) $links[] = $paged;
+	if ( $paged >= 1 ) $links[] = $paged;
 
-    if ( $paged >= 3 ) {
-        $links[] = $paged - 1;
-        $links[] = $paged - 2;
-    }
+	if ( $paged >= 2 ) $links[] = $paged - 1;
 
-    if ( ( $paged + 2 ) <= $max ) {
-        $links[] = $paged + 2;
-        $links[] = $paged + 1;
-    }
+	if ( $paged >= 3 ) $links[] = $paged - 2;
+
+	if ( ( $paged + 2 ) <= $max ) {
+		$links[] = $paged + 2;
+		$links[] = $paged + 1;
+	}
 
     echo '<div class="navigation"><ul>' . "\n";
     echo '<li><a href="#" data-page="' .$results['previous_page'] .'">&laquo; ' . __( 'Previous', 'itstream') . '</a></li>';
@@ -215,6 +214,7 @@ if($paged > 1 ) {
         $class = $paged == $link ? ' class="active"' : '';
         printf( '<li%s><a href="#" data-page="%s">%s</a></li>' . "\n", $class, $link, $link );
     }
+
     if ( ! in_array( $max, $links ) ) {
         if ( ! in_array( $max - 1, $links ) )
             echo '<li>…</li>' . "\n";
