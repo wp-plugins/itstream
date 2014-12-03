@@ -14,7 +14,7 @@
  * Plugin Name:       ItStream
  * Plugin URI:        https://www.itstream.tv/plugins/wordpress
  * Description:       Official plugin. Embed videos hosted on ItStream. Requires a itstream.tv account.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            it-marketing
  * Author URI:        http://www.itmarketingsrl.it/
  * Text Domain:       itstream
