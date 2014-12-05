@@ -7,7 +7,7 @@ Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin allow embedding of tStream content on your WordPress website
+This plugin allow embedding of ItStream content on your WordPress website
 
 == Description ==
 
