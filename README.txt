@@ -19,17 +19,17 @@ with other platforms of video content, such as Vimeo and YouTube.
 
 Users can easily embed their videos in page or posts from **Add Media** button, or embed live player from custom button in visual editor.
 
-This plugin requires a valid itStream account.
+This plugin requires a valid ItStream account.
 
 = Features =
 
 - Embed video directly from Add Media button
-- Embed live player from itStream custom button in visual editor
+- Embed live player from ItStream custom button in visual editor
 
 == Installation ==
 
 1. Navigate to the 'Add New' in the plugins dashboard
-2. Search for 'itStream'
+2. Search for 'ItStream'
 3. Click 'Install Now'
 4. Activate the plugin on the Plugin dashboard
 
@@ -49,7 +49,7 @@ To create an ItStream account go to ItStream [registration page](https://www.its
 = Using The WordPress Dashboard =
 
 1. Navigate to the 'Add New' in the plugins dashboard
-2. Search for 'itStream'
+2. Search for 'ItStream'
 3. Click 'Install Now'
 4. Activate the plugin on the Plugin dashboard
 
@@ -60,7 +60,7 @@ To create an ItStream account go to ItStream [registration page](https://www.its
 3. Upload everything (keeping the directory structure) to the `/wp-content/plugins/` directory.
 4. Activate the plugin through the 'Plugins' menu in WordPress.
 
-After activating the plugin go in Settings > itStream and insert yout itSteam account data to connect
+After activating the plugin go in Settings > ItStream and insert yout itSteam account data to connect
 
 == Changelog ==
 
@@ -68,8 +68,8 @@ After activating the plugin go in Settings > itStream and insert yout itSteam ac
 * Resolved pagination bug in ItStream 'Add Media' view
 
 = 1.0.0 =
-* Added itStream tab in Add Media
-* Added itStream custom button in visual editor
+* Added ItStream tab in Add Media
+* Added ItStream custom button in visual editor
 
 == Upgrade Notice ==
 
