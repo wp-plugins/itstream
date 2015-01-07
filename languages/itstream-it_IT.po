@@ -4,15 +4,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: itStream 1.0.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/plugins/plugin-name\n"
-"POT-Creation-Date: 2014-11-26 11:06+0100\n"
-"PO-Revision-Date: 2014-11-26 11:06+0100\n"
+"POT-Creation-Date: 2015-01-07 12:29+0100\n"
+"PO-Revision-Date: 2015-01-07 12:29+0100\n"
 "Last-Translator: \n"
 "Language-Team: itMarketing <info@itmarketingsrl.it>\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.7.1\n"
 "X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
 "esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
 "X-Poedit-Basepath: ../\n"
@@ -20,11 +20,15 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: admin/class-itstream-admin.php:78
-msgid "Your ItStream plugin is almost ready."
-msgstr "Il tuo plugin ItStream è quasi pronto."
+#: admin/class-itstream-admin.php:147 admin/class-itstream-admin.php:182
+msgid "Settings"
+msgstr "Impostazioni"
 
-#: admin/class-itstream-admin.php:79
+#: admin/class-itstream-admin.php:148 admin/class-itstream-admin.php:200
+msgid "ItStream"
+msgstr "ItStream"
+
+#: admin/class-itstream-admin.php:158
 #, php-format
 msgid ""
 "Your ItStream plugin is almost ready. %s with your ItStream account to start."
@@ -32,19 +36,11 @@ msgstr ""
 "Il tuo plugin ItStream è quasi pronto. %s con il tuo account ItStream per "
 "iniziare."
 
-#: admin/class-itstream-admin.php:79
+#: admin/class-itstream-admin.php:158
 msgid "Log in"
 msgstr "Accedi"
 
-#: admin/class-itstream-admin.php:152 admin/class-itstream-admin.php:181
-msgid "Settings"
-msgstr "Impostazioni"
-
-#: admin/class-itstream-admin.php:153 admin/class-itstream-admin.php:199
-msgid "ItStream"
-msgstr "ItStream"
-
-#: admin/class-itstream-admin.php:190
+#: admin/class-itstream-admin.php:191
 msgid "Add ItStream video"
 msgstr "Aggiungi video di ItStream"
 
@@ -56,21 +52,21 @@ msgstr "Home"
 msgid "Account"
 msgstr "Account"
 
-#: admin/includes/settings/account.php:46 admin/views/tabs/account.php:8
-msgid "Account successfully connected"
-msgstr "Account connesso correttamente"
-
-#: admin/includes/settings/account.php:49
+#: admin/includes/settings/account.php:47
 msgid "Error: account not connected"
 msgstr "Errore: account non connesso"
 
-#: admin/includes/settings/account.php:67
+#: admin/includes/settings/account.php:65
 msgid "Account disconnected"
 msgstr "Account disconnesso"
 
 #: admin/views/tabs/account.php:6
 msgid "ItStream Account"
 msgstr "Account ItStream"
+
+#: admin/views/tabs/account.php:8
+msgid "Account successfully connected"
+msgstr "Account connesso correttamente"
 
 #: admin/views/tabs/account.php:12 admin/views/tabs/account.php:38
 msgid "Username"
@@ -146,74 +142,93 @@ msgstr ""
 msgid "For more information go to %s"
 msgstr "Per maggiori informazioni vai su %s"
 
-#: admin/views/tabs/mm_video_tab.php:135 admin/views/tabs/mm_video_tab.php:238
-#: admin/views/tabs/mm_video_tab.php:242
+#: admin/views/tabs/mm_video_tab.php:134
+msgid "This video is private"
+msgstr "Questo video è privato"
+
+#: admin/views/tabs/mm_video_tab.php:144 admin/views/tabs/mm_video_tab.php:248
+#: admin/views/tabs/mm_video_tab.php:252
 msgid "Show"
 msgstr "Mostra"
 
-#: admin/views/tabs/mm_video_tab.php:146
+#: admin/views/tabs/mm_video_tab.php:155
 msgid "ID"
 msgstr "ID"
 
-#: admin/views/tabs/mm_video_tab.php:147
+#: admin/views/tabs/mm_video_tab.php:156
 msgid "Date"
 msgstr "Data"
 
-#: admin/views/tabs/mm_video_tab.php:148
+#: admin/views/tabs/mm_video_tab.php:157
 msgid "Length"
 msgstr "Durata"
 
-#: admin/views/tabs/mm_video_tab.php:152
+#: admin/views/tabs/mm_video_tab.php:158
+msgid "State"
+msgstr "Stato"
+
+#: admin/views/tabs/mm_video_tab.php:158
+msgid "Private"
+msgstr "Privato"
+
+#: admin/views/tabs/mm_video_tab.php:158
+msgid "Public"
+msgstr "Pubblico"
+
+#: admin/views/tabs/mm_video_tab.php:162
 msgid "Autoplay"
 msgstr "Autoplay"
 
-#: admin/views/tabs/mm_video_tab.php:158
+#: admin/views/tabs/mm_video_tab.php:168
 msgid "Mute sound"
 msgstr "Disattiva audio"
 
-#: admin/views/tabs/mm_video_tab.php:164
+#: admin/views/tabs/mm_video_tab.php:174
 msgid "Player size"
 msgstr "Dimensioni player"
 
-#: admin/views/tabs/mm_video_tab.php:167
+#: admin/views/tabs/mm_video_tab.php:177
 msgid "Standard"
 msgstr "Standard"
 
-#: admin/views/tabs/mm_video_tab.php:168
+#: admin/views/tabs/mm_video_tab.php:178
 msgid "Large"
 msgstr "Grande"
 
-#: admin/views/tabs/mm_video_tab.php:169
+#: admin/views/tabs/mm_video_tab.php:179
 msgid "Medium"
 msgstr "Medio"
 
-#: admin/views/tabs/mm_video_tab.php:170
+#: admin/views/tabs/mm_video_tab.php:180
 msgid "Small"
 msgstr "Piccolo"
 
-#: admin/views/tabs/mm_video_tab.php:171
+#: admin/views/tabs/mm_video_tab.php:181
 msgid "Custom"
 msgstr "Custom"
 
-#: admin/views/tabs/mm_video_tab.php:176
+#: admin/views/tabs/mm_video_tab.php:186
 msgid "Start from"
 msgstr "Inizia da"
 
-#: admin/views/tabs/mm_video_tab.php:183
+#: admin/views/tabs/mm_video_tab.php:193
 msgid "Add to post"
 msgstr "Inserisci nel post"
 
-#: admin/views/tabs/mm_video_tab.php:212
+#: admin/views/tabs/mm_video_tab.php:221
 msgid "Previous"
 msgstr "Indietro"
 
-#: admin/views/tabs/mm_video_tab.php:226
+#: admin/views/tabs/mm_video_tab.php:236
 msgid "Next"
 msgstr "Avanti"
 
-#: admin/views/tabs/mm_video_tab.php:239
+#: admin/views/tabs/mm_video_tab.php:249
 msgid "Hide"
 msgstr "Nascondi"
+
+#~ msgid "Your ItStream plugin is almost ready."
+#~ msgstr "Il tuo plugin ItStream è quasi pronto."
 
 #~ msgid "Categories"
 #~ msgstr "Categorie"

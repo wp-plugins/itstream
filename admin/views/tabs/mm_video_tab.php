@@ -129,7 +129,16 @@ if ( isset($_POST['send']) ) {
                     <img src="<?php echo $element['url_thumb']; ?>" width="100"  />
                 </td>
                 <td class="title">
-                    <?php echo $element['name']; ?>
+                    <?php
+                    if( $element['public'] == 'D' ) {
+                        echo '<span class="dashicons dashicons-lock" title="' . __( 'This video is private', 'itstream') . '"></span> ';
+                    }
+                    else {
+                        echo '<span class="dashicons"></span> ';
+                    }
+
+                    echo $element['name'];
+                    ?>
                 </td>
                 <td class="action">
                     <a href="#" data-details="<?php echo $element['id']; ?>"><?php _e( 'Show', 'itstream' ); ?></a>
@@ -145,7 +154,8 @@ if ( isset($_POST['send']) ) {
                             <td>
                                 <strong><?php _e( 'ID', 'itstream'); ?>: </strong><?php echo $element['id']; ?><br />
                                 <strong><?php _e( 'Date', 'itstream'); ?>: </strong><?php echo $element['add_date']; ?><br />
-                                <strong><?php _e( 'Length', 'itstream'); ?>: </strong><?php echo $element['duration']; ?>
+                                <strong><?php _e( 'Length', 'itstream'); ?>: </strong><?php echo $element['duration']; ?><br />
+                                <strong><?php _e( 'State', 'itstream'); ?>: </strong><?php echo ($element['public']=='D') ? __( 'Private', 'itstream') : __( 'Public', 'itstream'); ?>
                             </td>
                         </tr>
                         <tr>
